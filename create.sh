@@ -54,7 +54,10 @@ while :
        do
         if [[ -n $file ]]
          then
+          file='users/'$file'.json'
           echo -e $json | sed 's/\t/  /g' > $file
+          git add $file
+          git commit -m "Add $file"
           break
         fi
       done
