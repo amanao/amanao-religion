@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 if [[ $BASH_VERSINFO -ge 4 ]];
  then
   :
