@@ -30,7 +30,7 @@ json+='\t"information": {'
 PS3='所持しているアカウントを選択:'
 while :
  do
-  select information in Twitter GitHub Medium Qiita Instagram Google+ Facebook 終了
+  select information in Twitter GitHub Medium Qiita Instagram Facebook 終了
    do
     case $information in
      '終了')
